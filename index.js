@@ -1,7 +1,7 @@
 function jumpingOnClouds(c) {
     // Write your code here
     let jump = 0, i = 0;
-    while(i <  c.length){
+    while(i <  c.length - 1){
         console.log(i)
        if(c[i + 2] == 0){
           i = i+1;
